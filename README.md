@@ -1,6 +1,6 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white)
-![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![TS](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
 ---
 
@@ -20,7 +20,9 @@ This repository serves as my "Source of Truth." It’s built for myself and any 
 
 ## 🧩 Available Templates
 
-### 1. Vite + React + SCSS
+### 1. Vite + React + SCSS 
+
+Folder: ```/vite-react-scss```
 
 The primary boilerplate for modern React applications, focusing on a layout-first architecture.
 
@@ -28,6 +30,18 @@ The primary boilerplate for modern React applications, focusing on a layout-firs
 * **Design System**: Centralized `_variables.scss` and `_mixins.scss` for theme consistency and rapid UI development.
 * **Layered Architecture**: Explicit directory separation for `layouts`, `sections`, `components`, and `data`.
 * **Optimized Tooling**: Pre-configured with **Vite** for fast HMR and optimized production builds.
+
+### 2. Vite + React + TypeScript + SCSS
+
+Folder: ```/vite-react-ts-scss```
+
+A type-safe version of our primary boilerplate, combining React and SCSS Modules with TypeScript for enhanced developer experience.
+
+* **TypeScript Support**: Full type safety for components, hooks, and props, ensuring robust and maintainable code.
+* **Modular Styling**: Implements **SCSS Modules** for locally scoped styling and namespace isolation.
+* **Design System**: Centralized `_variables.scss` and `_mixins.scss` for theme consistency and rapid UI development.
+* **Layered Architecture**: Explicit directory separation for `layouts`, `sections`, `components`, and `data`.
+* **Optimized Tooling**: Pre-configured with **Vite** and TypeScript-specific ESLint rules.
 
 _More templates are coming soon! ✨_
 
